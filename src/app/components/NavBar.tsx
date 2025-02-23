@@ -11,24 +11,24 @@ const NavBar = () => {
             >
               <Image src={logo} width={50} objectPosition='relative' objectFit='contains' alt='Custom Rug Maker' />
               <span className='hidden md:block text-white text-2xl font-bold ml-2'>
-                Rugged Tufts.
+                Amplify.
               </span>
             </a>
             
           <a href='/index.html'
           className='text-white bg-purple hover:bg-purple-900 hover:text-white rounded-md px-3 py-2'
           >
-            Home
+            Library
           </a>
         <a href='/index.html'
           className='text-white hover:bg-purple-900 hover:text-white rounded-md px-3 py-2'
           >
-            Products
+            Recommender
           </a>
         <a href='/index.html'
           className='text-white hover:bg-purple-900 hover:text-white rounded-md px-3 py-2'
           >
-            Contacts
+            Profile
           </a>    
       </div>
     </nav>
