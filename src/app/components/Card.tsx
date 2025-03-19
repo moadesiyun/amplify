@@ -12,7 +12,7 @@ const Card = (props:propsType) => {
     <div className="max-w-sm rounded overflow-hidden shadow-lg">
       <div className="px-6 py-4">
       <div className="font-bold text-xl mb-2">{name}</div>
-      <p className="text-gray-700 text-base">
+      <p className="text-green-900 text-base">
         The genre is {genre}. {info}
       </p>
     </div>
