@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>What do you like here?</div>
+    <div>Which of these songs do you like here?</div>
   )
 }
 
