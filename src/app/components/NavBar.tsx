@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import logo from '../assets/images/logo.png'
 import { relative } from 'path'
 const NavBar = () => {
@@ -15,21 +16,21 @@ const NavBar = () => {
               </span>
             </a>
             
-          <a href='/index.html'
+          <Link href='/'
           className='text-white bg-purple hover:bg-purple-900 hover:text-white rounded-md px-3 py-2'
           >
-            Library
-          </a>
-        <a href='/index.html'
+            Home
+          </Link>
+        <Link href='/index'
           className='text-white hover:bg-purple-900 hover:text-white rounded-md px-3 py-2'
           >
             Recommender
-          </a>
-        <a href='/index.html'
+          </Link>
+        <Link href='/profile'
           className='text-white hover:bg-purple-900 hover:text-white rounded-md px-3 py-2'
           >
             Profile
-          </a>    
+          </Link>    
       </div>
     </nav>
   )
