@@ -24,7 +24,7 @@ const NavBar = () => {
         <Link href='/index'
           className='text-white hover:bg-purple-900 hover:text-white rounded-md px-3 py-2'
           >
-            Recommender
+            Curator
           </Link>
         <Link href='/profile'
           className='text-white hover:bg-purple-900 hover:text-white rounded-md px-3 py-2'
