@@ -10,7 +10,7 @@ export default function NavBar({ className }: { className?: string }) {
       <div className="flex items-center">
         <a className="flex items-center">
           <Image src={logo} width={50} objectPosition="relative" objectFit="contain" alt="Amplify Logo" />
-          <span className="hidden md:block text-2xl font-bold ml-2">Amplify.</span>
+          <span className="hidden md:block text-2xl font-bold ml-2">Amplofi.</span>
         </a>
       </div>
 
